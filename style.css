@@ -1,0 +1,296 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: black; */
+    
+}
+
+/* nav section */
+.main 
+{
+    background-image: url(images/blue_bg.png);
+    height: 110vh;
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+
+.navMain
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navLeft
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    margin-left: 100px;
+
+}
+
+.navLeft img
+{
+   margin-top:20px ;
+   width: 130px;
+ 
+
+}
+
+.navLeft a
+{
+   padding:20px 20px 0 20px;
+   color: rgb(62, 62, 62);
+   font-weight: 400;
+
+}
+
+.navLeft .active
+{
+position: relative;
+}
+
+.navLeft .bor
+{
+    background-color: rgb(77, 36, 116);
+width: 40%;
+height: 3px;
+position: absolute;
+left: 30%;
+border-radius: 5px;
+}
+
+.navRight
+{
+    margin: 20px;
+    margin-right: 100px;
+    position: relative;
+}
+
+.navRight img 
+{
+margin: 20px;
+padding-top: 10px;
+
+}
+
+.navRight p
+{
+position: absolute;
+top: 40%;
+right: 40%;
+font-weight: 500;
+color: rgb(62, 62, 62);
+
+}
+
+/* end of nav section */
+
+/* section 1 */
+
+.sec1
+{
+    display: flex;
+justify-content: space-between;
+/* align-items: center; */
+
+
+}
+
+
+.sec1Left{
+    /* display: flex;
+justify-content: space-between; */
+/* align-items: center; */
+}
+
+.sec1 h1 
+{
+    font-size: 50px;
+    margin-left: 150px;
+    margin-top: 35%;
+    color: rgb(62, 62, 62);
+
+    
+}
+
+.sec1 p 
+{
+    font-size: 20px;
+    margin-left: 150px;
+    /* margin-top: 35%; */
+    color: rgb(62, 62, 62);
+
+    
+}
+
+.sec1Right 
+{
+    position: relative;
+}
+
+.cloud 
+{
+    position: absolute;
+    top: 63%;
+    right: 18%;
+    z-index: 66;
+
+}
+
+.mask 
+{
+    position: absolute;
+    top: 6%;
+    right: 30%;
+
+}
+
+.wave
+{
+    position: absolute;
+    top: 70%;
+    right: 55%;
+
+}
+
+/* ////////////////////////section 2//////////////////// */
+
+.sec2 
+{
+    position: relative;
+}
+
+.sec2Left 
+{
+    position: absolute;
+    left: 7%;
+    top: 14%;
+}
+
+.sec2Middle
+{
+    position: absolute;
+    left: 35%;
+    top: 38%;
+}
+
+.sec2Right
+{
+    position: absolute;
+    left: 60%;
+    top: 85%;
+}
+
+.sec2Bg
+{
+    position: absolute;
+    left: 7%;
+    top: 85%;
+}
+
+.sec2Bg h2
+{
+    position: absolute;
+    left: 22%;
+    top: 40%;
+    color: rgb(255, 255, 255);
+    z-index: 22;
+    font-size: 50px;
+}
+
+.sec2Bg p
+{
+    position: absolute;
+    left: 22%;
+    top: 35%;
+    color: rgb(255, 255, 255);
+    z-index: 22;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* sec3 */
+
+.sec3
+{
+    margin-top: 350px;
+    margin-left: 200px;
+    margin-right: 250px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sec4 
+{
+    /* margin-top: 100px; */
+    background-image: url("images/Group\ 1131.png");
+    height: 700px;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center top;
+    position: relative;
+    /* width: 1800px; */
+    /* background-position-x: center; */
+    /* overflow: hidden; */  
+}
+
+.sec4R
+{
+    position: absolute;
+    top: 25%;
+    right: 0%;
+}
+
+.apple 
+{
+    position:absolute ;
+    top: 75%;
+    margin-left: 150px;
+    border-radius: 5px;
+
+}
+
+.google 
+{
+    position:absolute ;
+    top: 75%;
+    margin-left: 300px;
+    border-radius: 5px;
+
+}
+
+.ic 
+{
+    position:absolute ;
+    top: 85%;
+    margin-left: 150px;
+    border-radius: 5px; 
+}
+
+.ic i{
+    font-size: 20px;
+    color: white;
+    padding-right: 5px;
+}
+
+.links 
+{
+    position:absolute ;
+    top: 92%;
+    margin-left: 150px;
+    border-radius: 5px; 
+}
+
+.links a
+{
+
+color: white;   
+ margin-right: 20px;
+}
